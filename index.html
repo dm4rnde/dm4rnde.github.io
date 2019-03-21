@@ -15,6 +15,12 @@
     max-width: 20px;
     max-height: 20px;
   }
+  .compressalertbox {
+    padding: 2px;
+    color: white;
+    font-size: 80%;
+    text-align: right;
+  }
   body {
     margin: 20px;
   }
@@ -39,7 +45,7 @@
           <th>Project</th>
           <th>Description</th>
           <th>Written In / Specifics</th>
-          <th>Status</th>
+          <th>Status (Works?)</th>
 	  <th>Working Actively?</th>
         </tr>
       </thead>
@@ -49,7 +55,7 @@
           <td>GUI application to see stock's current price and historical prices from stock markets</td>
           <td>Python</td>
           <td>
-            <div class="alert alert-warning box" title="though mostly works, contains unfixed bug"> &nbsp; </div>
+            <div class="alert alert-danger box" title="might not work at all; some dependencies might be outdated; not managed;"> &nbsp; </div>
           </td>
           <td>
             <div class="alert alert-warning box" title="not working actively"> &nbsp; </div>
@@ -90,7 +96,7 @@
         </tr>
         <tr>
           <td><a href="https://github.com/dm4rnde/tutlearnnodejspart3fe">tutlearnnodejspart3fe</a></td>
-          <td>Code accompanying Node.js tutorial</td>
+          <td>Code accompanying Node.js tutorial (part 3). Focus on front end.</td>
           <td>JavaScript, Node.js, Express.js, MongoDB, Mongoose, Mocha, Chai, HTML, CSS</td>
           <td>
             <div class="alert alert-success box" title="works"> &nbsp; </div>
@@ -101,8 +107,10 @@
         </tr>
       </tbody>
     </table>
-  </div>
 
+    <div class="alert alert-info compressalertbox" title="last edit at"> 21 March 2019&nbsp;</div>
+
+  </div>
 
 </body>
 
